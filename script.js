@@ -58,7 +58,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     // Add some dynamic content
-    const dynamicSection = document.createElement('section');
-    dynamicSection.innerHTML = `<h2>Dynamic Section</h2><p>This section was added dynamically with JavaScript!</p>`;
-    document.querySelector('main').appendChild(dynamicSection);
-});
